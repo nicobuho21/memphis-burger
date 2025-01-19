@@ -1,0 +1,68 @@
+body{
+    background-color: #C4C7B8;
+}
+
+h1{
+    text-align: center;
+    font-size: 96px;
+    color: whitesmoke;
+    -webkit-text-stroke-color: orangered;
+    -webkit-text-stroke-width: 0.8px;
+    font-style: italic;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    gap: 30px;
+}
+
+header nav ul li{
+    display: flex;
+    text-wrap: nowrap;
+    font-family:fantasy;
+    font-variant: small-caps;
+    font-size: 150%;
+}
+
+.centertext {
+    text-align: center;
+}
+
+#mainslogan {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: orangered;
+}
+
+.custombotton {
+    border-color: orangered;
+    border-width: 2px;
+}
+
+.nav-link:hover{
+    color:darkblue;
+    border: 1px solid darkblue;
+}
