@@ -1,14 +1,42 @@
 body{
     background-color: #C4C7B8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    font-style: italic;
 }
 
-h1{
+/* titulo principal para pantallas moviles y tabletas */
+h1 {
     text-align: center;
-    font-size: 96px;
-    color: whitesmoke;
-    -webkit-text-stroke-color: orangered;
-    -webkit-text-stroke-width: 0.8px;
+    text-align: center;
+    font-size: 45px;
+    color: orangered;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 1.5px;
     font-style: italic;
+}
+
+/* titulo principal para computadoras */
+@media (min-width: 1268px) {
+    h1 {
+        text-align: center;
+        text-align: center;
+        font-size: 90px;
+        color: orangered;
+        -webkit-text-stroke-color: whitesmoke;
+        -webkit-text-stroke-width: 3px;
+        font-style: italic;
+    }
+}
+
+/* titulos secundarios para cada seccion */
+h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 0.5px;
+    color: orangered;
 }
 
 
@@ -34,19 +62,59 @@ header nav ul li{
     font-size: 150%;
 }
 
-.centertext {
-    text-align: center;
+#main-slogan {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
-#mainslogan {
-    margin-left: 25%;
-    margin-right: 25%;
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.main-text div {
+    padding: 25px;
+}
+
+@media (min-width: 1024px) {
+    .main-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .main-text div {
+        padding: 25px;
+        width: 33%;
+    }
+}
+
+.objetivo-titulo {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.objetivo-texto {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
 }
 
 footer {
     text-transform: uppercase;
     font-size: 150%;
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
 }
 
 a {
