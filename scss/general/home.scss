@@ -4,6 +4,7 @@
 /* estilos imagen pagina principal*/
 #main-slogan {
     @include flex(center);
+    margin-top: 5rem;
 }
 
 #main-slogan img{

@@ -36,6 +36,7 @@ a:visited {
 #main-slogan {
   display: flex;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 #main-slogan img {
@@ -109,7 +110,7 @@ hr {
   h1 {
     text-align: center;
     text-align: center;
-    font-size: 85px;
+    font-size: 90px;
     color: orangered;
     -webkit-text-stroke-color: whitesmoke;
     -webkit-text-stroke-width: 3px;
