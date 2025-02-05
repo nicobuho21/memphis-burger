@@ -4,6 +4,7 @@
 @import "utilidades/mixin";
 @import "general/home.scss";
 @import "general/menu.scss";
+@import "general/blog.scss";
 @import "general/mq-computadora.scss";
 
 
@@ -41,7 +42,9 @@ footer {
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-top: 2px solid $color-secundario;
 }
 
 

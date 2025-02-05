@@ -105,6 +105,52 @@ hr {
   margin-top: 5px;
 }
 
+.blog-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.blog-section div div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-left: 10%;
+  width: 80%;
+}
+.blog-section div div p {
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}
+.blog-section div div a {
+  color: darkblue;
+}
+
+.img-blog {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.blog-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid orangered;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /* titulo principal y secundario para computadoras */
 @media screen and (min-width: 768px) {
   h1 {
@@ -197,6 +243,44 @@ hr {
     order: 11;
   }
 }
+@media screen and (min-width: 1024px) {
+  .blog-section {
+    margin-bottom: 5rem;
+  }
+  .blog-section div {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .blog-section div div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 0;
+  }
+  .blog-section div div p {
+    font-size: 36px;
+    text-align: center;
+    width: 75%;
+  }
+  .blog-section div div a {
+    color: darkblue;
+  }
+  .blog-search {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 16px;
+    border: 2px solid orangered;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
 /* estilos footer en pantallas grandes*/
 @media screen and (min-width: 768px) {
   footer {
@@ -254,7 +338,9 @@ footer {
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-top: 2px solid darkblue;
 }
 
 /*# sourceMappingURL=style.css.map */
