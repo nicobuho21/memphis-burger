@@ -151,6 +151,33 @@ hr {
   margin-right: 10%;
 }
 
+main section div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+main section div form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main section div form div {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main section div form div label {
+  font-size: 24px;
+}
+main section div form .submit-button {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  font-size: 24px;
+  margin-left: 40%;
+  margin-right: 25%;
+}
+
 /* titulo principal y secundario para computadoras */
 @media screen and (min-width: 768px) {
   h1 {
