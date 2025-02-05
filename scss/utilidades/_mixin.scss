@@ -1,21 +1,23 @@
 @import "../utilidades/variables";
 
 // mixin para h1
-@mixin h1 ($text-size,$border-width) {
+@mixin titulo-principal ($size,$border-width) {
     text-align: center;
     text-align: center;
-    font-size: $text-size;
+    font-size: $size;
     color: $color-principal;
     -webkit-text-stroke-color: $color-bordes;
     -webkit-text-stroke-width: $border-width;
     font-style: italic;
     margin-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 // mixin para h2
-@mixin h2 ($text-size, $border-width) {
+@mixin h2 ($size, $border-width) {
     text-align: center;
-    font-size: $text-size;
+    font-size: $size;
     text-transform: uppercase;
     -webkit-text-stroke-color: $color-bordes;
     -webkit-text-stroke-width: $border-width;
