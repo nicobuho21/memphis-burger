@@ -170,6 +170,9 @@ main section div form div {
 main section div form div label {
   font-size: 24px;
 }
+main section div form div textarea {
+  min-height: 200px;
+}
 main section div form .submit-button {
   margin-top: 2.5rem;
   margin-bottom: 5rem;
