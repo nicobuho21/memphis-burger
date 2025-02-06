@@ -186,29 +186,29 @@ hr {
   font-size: 16px;
 }
 
-main section div {
+main .form-contacto div {
   display: flex;
   flex-direction: column;
   margin-left: 10%;
   margin-right: 20%;
 }
-main section div form {
+main .form-contacto div form {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-main section div form div {
+main .form-contacto div form div {
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-main section div form div label {
+main .form-contacto div form div label {
   font-size: 24px;
 }
-main section div form div textarea {
+main .form-contacto div form div textarea {
   min-height: 200px;
 }
-main section div form .submit-button {
+main .form-contacto div form .submit-button {
   margin-top: 2.5rem;
   margin-bottom: 5rem;
   font-size: 24px;
