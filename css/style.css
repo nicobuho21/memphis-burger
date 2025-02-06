@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset */
 * {
   margin: 0;
@@ -151,6 +152,40 @@ hr {
   margin-right: 10%;
 }
 
+.calificacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.calificacion .titulo-secundario {
+  margin-bottom: 2.5rem;
+}
+.calificacion div {
+  text-align: center;
+}
+.calificacion div .reseña {
+  min-width: 80%;
+  min-height: 150px;
+}
+.calificacion div .submit-button {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  font-size: 24px;
+}
+
+/* estilos para barra de calificacion*/
+.rating-container {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rating-container div {
+  padding: 10px;
+  font-size: 16px;
+}
+
 main section div {
   display: flex;
   flex-direction: column;
@@ -273,6 +308,7 @@ main section div form .submit-button {
     order: 11;
   }
 }
+/*estilos para BLOG en pantallas grandes*/
 @media screen and (min-width: 1024px) {
   .blog-section {
     margin-bottom: 5rem;
@@ -309,6 +345,21 @@ main section div form .submit-button {
     border: 2px solid orangered;
     margin-left: 35%;
     margin-right: 35%;
+  }
+}
+/* estilos para clientes en pantallas grandes*/
+@media screen and (min-width: 768px) {
+  .calificacion {
+    padding: 50px;
+  }
+  .calificacion .titulo-secundario {
+    margin-bottom: 5rem;
+  }
+  .calificacion div .submit-button {
+    font-size: 28px;
+  }
+  .rating-container div {
+    font-size: 24px;
   }
 }
 /* estilos footer en pantallas grandes*/

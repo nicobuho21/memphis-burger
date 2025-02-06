@@ -95,7 +95,7 @@
 }
 
 
-//estilos para BLOG en pantallas grandes
+/*estilos para BLOG en pantallas grandes*/
 
 @media screen and (min-width:1024px) {
     .blog-section {
@@ -137,7 +137,26 @@
     }
 }
 
+/* estilos para clientes en pantallas grandes*/
 
+@media screen and (min-width: 768px) {
+    .calificacion {
+        padding: 50px;
+        .titulo-secundario {
+            margin-bottom: 5rem;
+        }
+        div {
+            .submit-button {
+                font-size: 28px;
+            }
+        }
+    }
+    .rating-container {
+        div {
+            font-size: 24px;
+        }
+    }
+}
 
 
 /* estilos footer en pantallas grandes*/

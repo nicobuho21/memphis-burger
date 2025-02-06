@@ -56,12 +56,41 @@
     <h1>Conoce las opiniones de nuestros clientes</h1>
 
     <!-- seccion para dejar una puntuacion -->
-     <section>
-        <p>
+     <section class="calificacion">
+        <div class="titulo-secundario">
             <h2>Deja tu calificacion aqui:</h2>
-            <textarea name="reseña" id="reseña" placeholder="Additional comments on your calification"></textarea>            
-        </p>
-        <input type="submit">
+        </div>
+        <div class="rating-container">
+            <div>
+                <p>GIVE US A RATING:</p>
+            </div>
+            <div>
+                <label for="rating">1</label>
+                <input type="radio" name="rating" id="star1" value="1">
+            </div>
+            <div>
+                <label for="rating">2</label>
+                <input type="radio" name="rating" id="star2" value="2">
+            </div>
+            <div>
+                <label for="rating">3</label>
+                <input type="radio" name="rating" id="star3" value="3">
+            </div>
+            <div>
+                <label for="rating">4</label>
+                <input type="radio" name="rating" id="star4" value="4">
+            </div>
+            <div>
+                <label for="rating">5</label>
+                <input type="radio" name="rating" id="star5" value="5">
+            </div>
+        </div>
+        <div>
+            <textarea name="reseña" class="reseña" placeholder="Additional comments on your calification"></textarea> 
+        </div>
+        <div>
+            <input class="submit-button" type="submit">           
+        </div>
     </section>
 
      <!-- reseñas de clientes -->
