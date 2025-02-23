@@ -22,8 +22,11 @@ a {
 
 .nav-link {
     color: $color-principal;
+    display: flex;
+    text-wrap: nowrap;
     font-family: fantasy;
     font-variant: small-caps;
+    font-size: 180%;
 }
 
 a:visited {
