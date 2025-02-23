@@ -19,6 +19,15 @@ a {
   color: darkblue;
 }
 
+.nav-link {
+  color: orangered;
+  display: flex;
+  text-wrap: nowrap;
+  font-family: fantasy;
+  font-variant: small-caps;
+  font-size: 150%;
+}
+
 a:visited {
   color: orangered;
 }
