@@ -23,7 +23,6 @@ a {
   color: orangered;
   display: flex;
   text-wrap: nowrap;
-  font-family: fantasy;
   font-variant: small-caps;
   font-size: 180%;
 }
