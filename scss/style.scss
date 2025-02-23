@@ -29,6 +29,14 @@ header nav {
     margin-inline: 50px;
     ul {
         @include navbar;
+        li {
+            color: $color-principal;
+            display: flex;
+            text-wrap: nowrap;
+            font-family: fantasy;
+            font-variant: small-caps;
+            font-size: 180%;
+        }
     }
 }
 

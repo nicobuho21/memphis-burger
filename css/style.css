@@ -19,14 +19,6 @@ a {
   color: darkblue;
 }
 
-.nav-link {
-  color: orangered;
-  display: flex;
-  text-wrap: nowrap;
-  font-variant: small-caps;
-  font-size: 180%;
-}
-
 a:visited {
   color: orangered;
 }
@@ -411,6 +403,14 @@ header nav ul {
   list-style: none;
   font-size: 24px;
   gap: 30px;
+}
+header nav ul li {
+  color: orangered;
+  display: flex;
+  text-wrap: nowrap;
+  font-family: fantasy;
+  font-variant: small-caps;
+  font-size: 180%;
 }
 
 /* estilos del footer*/
