@@ -41,7 +41,6 @@ a:visited {
 .carousel-inner {
   display: flex;
   justify-content: Start;
-  margin-left: 5px;
   max-width: 98%;
   max-height: 1000px;
 }
