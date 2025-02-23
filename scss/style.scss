@@ -25,15 +25,12 @@
 
 /* estilos para el header y navbar */
 header nav {
-    @include navbar;
     .navbar-nav {
-        display: flex;
-        align-items: center;
-        font-size: 150%;
-        font-family: fantasy;
-        font-variant: small-caps;
+        @include navbar;
         .nav-item {
-            margin-inline: 1.5rem;
+            font-family: fantasy;
+            font-variant: small-caps;
+            font-size: 150%;
         }
     }
 }

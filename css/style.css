@@ -392,22 +392,17 @@ main .form-contacto div form .submit-button {
   }
 }
 /* estilos para el header y navbar */
-header nav {
+header nav .navbar-nav {
   display: flex;
   align-items: center;
   list-style: none;
   font-size: 24px;
   gap: 30px;
 }
-header nav .navbar-nav {
-  display: flex;
-  align-items: center;
-  font-size: 150%;
+header nav .navbar-nav .nav-item {
   font-family: fantasy;
   font-variant: small-caps;
-}
-header nav .navbar-nav .nav-item {
-  margin-inline: 1.5rem;
+  font-size: 150%;
 }
 
 /* estilos del footer*/
