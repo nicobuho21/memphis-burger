@@ -215,19 +215,20 @@ main .form-contacto div form .submit-button {
 }
 
 /*estilo navbar para computadoras*/
-header nav .navbar-nav {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  font-size: 24px;
-  gap: 30px;
+@media screen and (min-width: 768px) {
+  header nav .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    gap: 30px;
+  }
+  header nav .navbar-nav .nav-item {
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-size: 150%;
+  }
 }
-header nav .navbar-nav .nav-item {
-  font-family: fantasy;
-  font-variant: small-caps;
-  font-size: 150%;
-}
-
 /* titulo principal y secundario para computadoras */
 @media screen and (min-width: 768px) {
   h1 {
