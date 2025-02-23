@@ -24,17 +24,19 @@
 }
 
 /* estilos para el header y navbar */
-header nav {
-    @include flex (space-between);
-    margin-inline: 50px;
-    ul {
-        @include navbar;
-        li {
-            display: flex;
-            text-wrap: nowrap;
-            font-family:fantasy;
-            font-variant: small-caps;
-            font-size: 180%;
+@media screen and (min-width: 1px) {
+    header nav {
+        @include flex (space-between);
+        margin-inline: 50px;
+        ul {
+            @include navbar;
+            li {
+                display: flex;
+                text-wrap: nowrap;
+                font-family:fantasy;
+                font-variant: small-caps;
+                font-size: 180%;
+            }
         }
     }
 }
