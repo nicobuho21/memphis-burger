@@ -396,7 +396,7 @@ main .form-contacto div form .submit-button {
   }
 }
 /* estilos para el header y navbar */
-@media screen and (min-width: 1px) {
+@media screen and (min-width: 768px) {
   header nav {
     display: flex;
     justify-content: space-between;
