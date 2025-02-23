@@ -4,8 +4,7 @@
 /* estilos imagen pagina principal*/
 .carousel-inner {
     @include flex(Start);
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 5px;
     max-width: 98%;
     max-height: 1000px;
 }
