@@ -24,7 +24,7 @@ a {
   display: flex;
   align-items: center;
   font-variant: small-caps;
-  font-size: 36px;
+  font-size: 28px;
   margin-inline: 1rem;
 }
 
@@ -401,29 +401,17 @@ main .form-contacto div form .submit-button {
     color: orangered;
   }
 }
-header nav {
-  font-family: fantasy;
-  display: flex;
-  align-items: center;
-  font-variant: small-caps;
-  font-size: 36px;
-  margin-inline: 1rem;
+.navbar {
+  margin-left: 2.5rem;
 }
-header nav .navbar-nav {
+.navbar .navbar-nav {
   font-family: fantasy;
   display: flex;
   align-items: center;
   font-variant: small-caps;
-  font-size: 36px;
+  font-size: 1px;
   margin-inline: 1rem;
-}
-header nav .navbar-nav .nav-item {
-  font-family: fantasy;
-  display: flex;
-  align-items: center;
-  font-variant: small-caps;
-  font-size: 36px;
-  margin-inline: 1rem;
+  flex-wrap: nowrap;
 }
 
 /* estilos del footer*/

@@ -23,31 +23,19 @@
     }
 }
 
-header nav {
-    font-family: fantasy;
-    display: flex;
-    align-items: center;
-    font-variant: small-caps;
-    font-size: 36px;
-    margin-inline: 1rem;
+.navbar {
+    margin-left: 2.5rem;
     .navbar-nav {
         font-family: fantasy;
         display: flex;
         align-items: center;
         font-variant: small-caps;
-        font-size: 36px;
+        font-size: 1px;
         margin-inline: 1rem;
         flex-wrap: nowrap;
-        .nav-item {
-            font-family: fantasy;
-            display: flex;
-            align-items: center;
-            font-variant: small-caps;
-            font-size: 36px;
-            margin-inline: 1rem;
-        }
     }
 }
+
 
 
 /* estilos del footer*/
