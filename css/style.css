@@ -19,6 +19,10 @@ a {
   color: darkblue;
 }
 
+.nav-link {
+  color: orangered;
+}
+
 a:visited {
   color: orangered;
 }
