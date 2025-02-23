@@ -25,17 +25,19 @@
 
 /* estilos para el header y navbar */
 header nav {
-    @include flex (space-between);
-    margin-inline: 50px;
-    ul {
-        @include navbar;
-        li {
-            color: $color-principal;
-            display: flex;
-            text-wrap: nowrap;
-            font-family: fantasy;
-            font-variant: small-caps;
-            font-size: 180%;
+    @include navbar;
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+        font-variant: small-caps;
+        color: $color-principal;
+        display: flex;
+        text-wrap: nowrap;
+        .nav-item {
+            margin-inline: 1.5rem;
         }
     }
 }
