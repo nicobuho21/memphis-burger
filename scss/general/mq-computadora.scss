@@ -2,20 +2,6 @@
 @import "../utilidades/variables";
 
 
-/*estilo navbar para computadoras*/
-@media screen and (min-width: 768px){
-        header nav {
-            .navbar-nav {
-                @include navbar;
-                .nav-item {
-                    font-family: fantasy;
-                    font-variant: small-caps;
-                    font-size: 150%;
-            }
-        }
-    }
-}
-
 /* titulo principal y secundario para computadoras */
 @media screen and (min-width: 768px) {
     h1 {

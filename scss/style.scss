@@ -23,6 +23,17 @@
     }
 }
 
+header nav {
+    .navbar-nav {
+        @include navbar;
+        .nav-item {
+            font-family: fantasy;
+            font-variant: small-caps;
+            font-size: 36px;
+        }
+    }
+}
+
 
 /* estilos del footer*/
 footer {
