@@ -19,15 +19,6 @@ a {
   color: darkblue;
 }
 
-.nav-link {
-  color: orangered;
-  display: flex;
-  text-wrap: nowrap;
-  font-family: fantasy;
-  font-variant: small-caps;
-  font-size: 150%;
-}
-
 a:visited {
   color: orangered;
 }
@@ -410,14 +401,10 @@ header nav {
 }
 header nav .navbar-nav {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 150%;
   font-family: fantasy;
   font-variant: small-caps;
-  color: orangered;
-  display: flex;
-  text-wrap: nowrap;
 }
 header nav .navbar-nav .nav-item {
   margin-inline: 1.5rem;
