@@ -391,17 +391,21 @@ main .form-contacto div form .submit-button {
     color: orangered;
   }
 }
+header nav {
+  font-family: fantasy;
+}
 header nav .navbar-nav {
+  font-family: fantasy;
   display: flex;
   align-items: center;
-  list-style: none;
-  font-size: 24px;
-  gap: 30px;
 }
 header nav .navbar-nav .nav-item {
   font-family: fantasy;
   font-variant: small-caps;
   font-size: 36px;
+  margin-inline: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 /* estilos del footer*/

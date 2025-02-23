@@ -24,12 +24,18 @@
 }
 
 header nav {
+    font-family: fantasy;
     .navbar-nav {
-        @include navbar;
+        font-family: fantasy;
+        display: flex;
+        align-items: center;
         .nav-item {
             font-family: fantasy;
             font-variant: small-caps;
             font-size: 36px;
+            margin-inline: 1rem;
+            display: flex;
+            align-items: center;
         }
     }
 }
