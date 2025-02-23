@@ -8,26 +8,17 @@
 }
 
 /* estilos globales */
-body {
-    background-color: $color-background;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: $color-secundario;
-    font-style: italic;
-}
+// body {
+//     background-color: $color-background;
+//     font-family: Verdana, Geneva, Tahoma, sans-serif;
+//     color: $color-secundario;
+//     font-style: italic;
+// }
 
 /* estilos para links y botones del navbar*/
 a {
     color: $color-secundario;
 }
-
-// .nav-link {
-//     color: $color-principal;
-//     display: flex;
-//     text-wrap: nowrap;
-//     font-family: fantasy;
-//     font-variant: small-caps;
-//     font-size: 150%;
-// }
 
 a:visited {
     color: $color-principal;
