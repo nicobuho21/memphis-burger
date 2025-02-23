@@ -214,6 +214,20 @@ main .form-contacto div form .submit-button {
   margin-right: 25%;
 }
 
+/*estilo navbar para computadoras*/
+header nav .navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 24px;
+  gap: 30px;
+}
+header nav .navbar-nav .nav-item {
+  font-family: fantasy;
+  font-variant: small-caps;
+  font-size: 150%;
+}
+
 /* titulo principal y secundario para computadoras */
 @media screen and (min-width: 768px) {
   h1 {
@@ -391,20 +405,6 @@ main .form-contacto div form .submit-button {
     color: orangered;
   }
 }
-/* estilos para el header y navbar */
-header nav .navbar-nav {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  font-size: 24px;
-  gap: 30px;
-}
-header nav .navbar-nav .nav-item {
-  font-family: fantasy;
-  font-variant: small-caps;
-  font-size: 150%;
-}
-
 /* estilos del footer*/
 footer {
   text-transform: uppercase;
